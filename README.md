@@ -25,9 +25,11 @@ For more information, visit [vibewind.com](https://vibewind.com).
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/whferr/vibewind-starter.git
-   cd vibewind-starter
+   git clone https://github.com/vibewind/vibewind-starter.git your-project-name
+   cd your-project-name
    ```
+
+   Replace `your-project-name` with whatever name you'd like to give your project.
 
 2. **Install dependencies**
    ```bash

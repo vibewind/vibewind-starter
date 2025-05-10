@@ -7,7 +7,7 @@ export async function Header() {
   const { userId } = await auth();
   
   return (
-    <header className="bg-white shadow-sm">
+    <header className="bg-white border-b border-gray-200">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold text-black flex items-center gap-2">
           <Image src="/logo.svg" className="py-2" alt="Vibewind Starter" width={30} height={30} />

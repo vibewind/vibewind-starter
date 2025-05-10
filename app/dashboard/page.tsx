@@ -1,4 +1,3 @@
-import { Header } from '@/app/components/Header';
 import { requireAuthentication } from '@/utils/auth';
 
 export default async function DashboardPage() {
@@ -7,7 +6,6 @@ export default async function DashboardPage() {
   
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
       <main className="flex-1 p-6 md:p-12">
         <div className="max-w-5xl mx-auto space-y-8">
           <div className="bg-white/50 backdrop-blur-sm rounded-xl shadow-lg p-8 border border-gray-100">

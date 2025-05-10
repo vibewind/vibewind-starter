@@ -1,10 +1,6 @@
-import { Header } from './components/Header';
-
 export default async function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-white to-gray-50">
-      <Header />
-      
       <main className="flex-1 flex flex-col items-center justify-center p-8 md:p-12">
         <div className="max-w-4xl w-full text-center space-y-8 px-4">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
